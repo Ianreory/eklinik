@@ -1,0 +1,1011 @@
+/* Sesuaikan gaya CSS seperti yang diinginkan */
+
+.table {
+    margin: auto;
+    font-family: "Arial";
+    font-size: 12px;
+    width: 100%; /* Tambahkan lebar 100% agar tabel responsif */
+    margin-left: 100px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #cccccc;
+    padding: 9px 15px; /* Sesuaikan ruang padding */
+}
+
+.caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Table Header */
+.table thead th {
+    background-color: #2ecd71;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Table Body */
+.table tbody td {
+    color: #353535;
+}
+
+.table tbody tr:nth-child(odd) td {
+    background-color: #f5fff9;
+}
+
+td {
+    background-color: #f5fff9;
+}
+
+.table tbody tr:hover td {
+    background-color: #f0f0f0;
+    transition: all 0.2s;
+}
+
+/* Tabel Responsive 1 */
+.table-container {
+    overflow: auto;
+    max-width: 100%; /* Tambahkan lebar maksimum */
+    box-shadow: 0px 0px -15px rgb(97, 93, 93);
+}
+
+.card {
+    margin: 0;
+}
+
+.card1 {
+    background-color: #1c2e49;
+    margin: 0;
+}
+
+.cold {
+    padding: 0px, 0px;
+    padding-right: 0px;
+}
+
+/* kunjungan */
+
+.atas {
+    margin-bottom: 50px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    left: 10px;
+}
+
+.bpjs {
+    margin: 0px 10px;
+    margin-top: 30px;
+}
+
+.tbl {
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+/* button */
+.bn632-hover {
+    width: 140px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn26 {
+    background-image: linear-gradient(
+        to right,
+        #196d91,
+        #4481eb,
+        #04befe,
+        #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+/* tanggal */
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    background-color: #0080ff;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.bn632-hover {
+    /* Optional: Add hover effect for button */
+    background-color: #0066cc;
+}
+
+.bn26 {
+    /* Optional: Add specific styles for your button */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* button */
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    margin-left: 120px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.btn-1 {
+    background: rgb(6, 204, 59);
+    background: linear-gradient(0deg, rgb(6, 204, 59) 0%, rgb(6, 204, 59) 100%);
+    border: none;
+}
+
+.btn-1:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+        -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* btn1 */
+.tombol {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.formpasien {
+    margin: 20px;
+}
+
+/* search */
+
+.input-container {
+    width: 450px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+}
+
+.input {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    transition: 0.2s linear;
+    border: 2.5px solid rgb(50, 189, 94);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.input:focus {
+    outline: none;
+    border: 0.5px solid rgb(76, 241, 61);
+    box-shadow: -5px -5px 0px rgb(87, 255, 49);
+}
+
+.input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+    0%,
+    100% {
+        transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+
+    50% {
+        transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+}
+
+/* icon */
+.custom-icon {
+    font-size: 130px; /* Sesuaikan ukuran ikon menggunakan unit em */
+    height: 130px; /* Sesuaikan tinggi ikon */
+    line-height: 130px; /* Sesuaikan line-height */
+}
+
+@media (max-width: 507px) {
+    .custom-icon {
+        font-size: 50px; /* Sesuaikan ukuran ikon untuk layar yang lebih kecil */
+        height: 50px; /* Sesuaikan tinggi ikon untuk layar yang lebih kecil */
+        line-height: 50px; /* Sesuaikan line-height untuk layar yang lebih kecil */
+    }
+}
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table1 th,
+.table1 td {
+    padding: 8px; /* Atur padding antar sel */
+}
+
+.table1 th {
+    background-color: #f2f2f2; /* Atur warna latar belakang header */
+    text-align: center;
+}
+
+/* form bpjs */
+
+.formbpjs {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.formbpjs > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 100%; /* Menyesuaikan lebar input dalam input-group */
+}
+
+.formpasiena1 {
+    margin: 0px 50px;
+}
+
+.label {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.tekanan {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tekanan > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.tekanan > .label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tekanan > .label1 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+.tekanan1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tekanan1 > div {
+    display: flex;
+    flex-direction: column;
+}
+.tekanan1 > .label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 70px;
+}
+
+.formbpjs2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.formbpjs2 > .label {
+    margin-left: 79px;
+}
+
+.simpan1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* anc */
+.anc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 170px;
+    margin-left: 300px;
+}
+/* 
+.anc > div > div {
+    margin-top: 10px;
+}
+
+.isi {
+    margin-left: 37px;
+}
+.isi1 {
+    margin-left: 78px;
+}
+.isi2 {
+    margin-left: 17px;
+}
+.isi3 {
+    margin-left: 78px;
+}
+.isi4 {
+    margin-left: 58px;
+}
+.isi5 {
+    margin-left: 55px;
+}
+.isi6 {
+    margin-left: 57px;
+}
+.isi7 {
+    margin-left: 37px;
+}
+.isi8 {
+    margin-left: 26px;
+}
+.isi9 {
+    margin-left: 117px;
+}
+.isi10 {
+    margin-left: 139px;
+}
+.isi11 {
+    margin-left: 139px;
+}
+.isi12 {
+    margin-left: 104px;
+}
+.isi13 {
+    margin-left: 30px;
+} */
+
+/* anc table */
+/* .anctable {
+    margin-top: 20px;
+} */
+
+.tombolanc {
+    margin-left: 610px;
+}
+@media (min-width: 576px) {
+    .card-group {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+        gap: 20px;
+    }
+}
+
+.anctable {
+    margin-top: 30px;
+}
+
+.exportanc {
+    margin-left: 98px;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    margin-top: 40px;
+}
+
+.indexpasien {
+    margin-bottom: 20px;
+}
+
+.tablekb1 {
+    margin-right: 10px;
+}
+
+.button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #66ff66;
+    color: ghostwhite;
+    margin: 30px;
+}
+
+.button span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.button:hover span {
+    color: black;
+}
+
+.button::before,
+.button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.button::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.button:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+/* searach */
+
+.rekap {
+    background-color: #0a2245;
+    border-radius: 10px;
+    border: solid rgb(33, 33, 80);
+}
+
+.nav-item::shadow {
+    box-shadow: #1c2e49;
+}
+
+.search {
+    margin-left: 770px;
+}
+
+/* buttompasin */
+
+.btnumum {
+    padding: 10px 16px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 100;
+    font-size: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btnumum::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ff0707;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.btnumum:hover {
+    color: #e8e8e8;
+}
+
+.btnumum:hover::before {
+    width: 100%;
+}
+
+.btnumum1 {
+    padding: 10px 16px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 100;
+    font-size: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btnumum1::before {
+    color: #0a2245;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #5b5f1c;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.btnumum1:hover {
+    color: #e8e8e8;
+}
+
+.btnumum1:hover::before {
+    width: 100%;
+}
+
+.btnumum2 {
+    padding: 10px 16px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 100;
+    font-size: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btnumum2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1ed257;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.btnumum2:hover {
+    color: #e8e8e8;
+}
+
+.btnumum2:hover::before {
+    width: 100%;
+}
+
+.navbawah {
+    margin-top: 90px;
+}
+
+.gridanc {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* isi */
+
+.claint {
+    margin-left: 10px;
+}
+
+.card-client {
+    background: #2cb5a0;
+    width: 13rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px solid #7cdacc;
+    box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.card-client:hover {
+    transform: translateY(-10px);
+}
+
+.user-picture {
+    overflow: hidden;
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border: 4px solid #7cdacc;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.user-picture svg {
+    width: 2.5rem;
+    fill: currentColor;
+}
+
+.name-client {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.name-client span {
+    display: block;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.social-media:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background: #7cdacc;
+}
+
+.social-media a {
+    position: relative;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media a:last-child {
+    margin-right: 0;
+}
+
+.social-media a svg {
+    width: 1.1rem;
+    fill: currentColor;
+}
+
+/*-- Tooltip Social Media --*/
+.tooltip-social {
+    background: #262626;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -90%);
+    transition: all 0.2s ease;
+    z-index: 1;
+}
+
+.tooltip-social:after {
+    content: " ";
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+}
+
+.social-media a .tooltip-social:after {
+    border-top-color: #262626;
+}
+
+.social-media a:hover .tooltip-social {
+    opacity: 1;
+    transform: translate(-50%, -130%);
+}
+
+.create-pasien {
+    margin: 0px 10px;
+    margin-left: 30px;
+}
+
+.create-pasien {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
+    justify-content: center;
+    grid-gap: 2rem;
+}
+
+.create-pasien1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    grid-gap: 4rem;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+/* btn */
+.btnpasien {
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #1a291a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.btnpasien:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #231c1c, 0 15px 0 -4px #1f2223,
+        0 16px 10px -3px #39a2db;
+}
+
+/* .btnpasien:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #f85959, 0 8px 0 -4px #39a2db,
+        0 12px 10px -3px #39a2db;
+} */
+
+/* ?\table umum */
+/* Pengaturan border-collapse jenis,ukuran serta warna huruf secara keseluruhan tabel */
+
+/* btn balik */
+.btnbalik {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}
+
+.btnbalik > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.btnbalik:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+}
+
+.btnbalik:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+}
+
+/* btn tambahkumjungan */
+.btntambahkunjungan {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #488aec;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    transition: all 0.6s ease;
+}
+
+.btntambahkunjungan:hover {
+    box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+}
+
+.btntambahkunjungan:focus,
+.btntambahkunjungan:active {
+    opacity: 0.85;
+    box-shadow: none;
+}
+
+.btntambahkunjungan svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.btnpersonal {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0px 50px 30px 30px;
+}
+
+/* btndetail */
+.contactButton {
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    padding-left: 1em;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+}
+
+.iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+}
+
+.contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+}
+
+.center-button {
+    text-align: center;
+}
+
+.btndetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.anccontain div {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid blanchedalmond;
+}
+
+.claint1 {
+    margin-left: 490px;
+    margin-top: 40px;
+}
+
+/* login */
+.export_tanggal {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
